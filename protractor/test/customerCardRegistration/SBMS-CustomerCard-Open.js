@@ -21,6 +21,8 @@ describe('angularjs homepage', function() {
 	element(by.id('gender'),100);	
 	var clepsidra=by.xpath('//*[@id="shell_modal_busy"]'); //special Busy element
 	console.log('waiting for Busy');
+	customerHelper.untilElementIsPresentedNotPresented(clepsidra);
+/*
 	browser.wait(function() {
         var deferred = protractor.promise.defer();
         element(clepsidra).isPresent().then(function (isPresent) {
@@ -37,6 +39,7 @@ describe('angularjs homepage', function() {
         });
     return deferred.promise;
     });
+    */
     //browser.close();
     customerHelper.closeBrowser();
     console.log('window is closed');	
