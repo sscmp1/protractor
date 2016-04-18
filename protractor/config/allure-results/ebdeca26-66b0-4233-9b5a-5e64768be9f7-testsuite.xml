@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1460988440748" stop="1460988440757">
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1460993609501" stop="1460993629540">
 	<name>angularjs homepage</name>
 	<title>angularjs homepage</title>
 	<test-cases>
-		<test-case start="1460988440749" stop="1460988440754" status="failed">
-			<name>Ожидание</name>
-			<title>Ожидание</title>
+		<test-case start="1460993609502" stop="1460993629530" status="failed">
+			<name>Открыть карточку клиента вызовом АФ CliCardTabs</name>
+			<title>Открыть карточку клиента вызовом АФ CliCardTabs</title>
 			<description></description>
 			<labels>
 			</labels>
@@ -14,18 +14,29 @@
 			<attachments>
 			</attachments>
 			<failure>
-				<message>Failed: openBrowser is not defined</message>
-				<stack-trace>ReferenceError: openBrowser is not defined
-    at Object.&lt;anonymous&gt; (C:\protractorActual\protractor\test\customerCardRegistration\SBMS-CustomerCard-Open.js:16:2)
+				<message>Failed: No element found using locator: By(xpath, //div[@status=&apos;status&apos;]/div[@class=&apos;b-combobox__buttons ng-scope&apos;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(xpath, //div[@status=&apos;status&apos;]/div[@class=&apos;b-combobox__buttons ng-scope&apos;])
+    at WebDriverError (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\error.js:27:10)
+    at NoSuchElementError (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\error.js:230:10)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\built\element.js:674:15
+    at Promise.invokeCallback_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1329:14)
+    at TaskQueue.execute_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2790:14)
+    at TaskQueue.executeNext_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2773:21)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2652:27
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:639:7
+    at process._tickCallback (node.js:369:9)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\built\element.js:380:21)
+    at [object Object].ElementArrayFinder.(anonymous function) [as click] (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\built\element.js:78:17)
+    at [object Object].ElementFinder.(anonymous function) [as click] (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\built\element.js:708:7)
+    at Object.&lt;anonymous&gt; (C:\protractorActual\protractor\test\customerCardRegistration\SBMS-CustomerCard-Open.js:24:24)
     at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
     at new Promise (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1043:7)
     at controlFlowExecute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
     at TaskQueue.execute_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2790:14)
     at TaskQueue.executeNext_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2773:21)
     at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2697:25
-    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:639:7
-    at process._tickCallback (node.js:369:9)
-From: Task: Run it(&quot;Ожидание&quot;) in control flow
+From: Task: Run it(&quot;Открыть карточку клиента вызовом АФ CliCardTabs&quot;) in control flow
     at Object.&lt;anonymous&gt; (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
     at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
     at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)

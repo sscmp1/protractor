@@ -1,7 +1,7 @@
 {
   "id": "spec0",
-  "description": "Ожидание",
-  "fullName": "angularjs homepage Ожидание",
+  "description": "Открыть карточку клиента вызовом АФ CliCardTabs",
+  "fullName": "angularjs homepage Открыть карточку клиента вызовом АФ CliCardTabs",
   "failedExpectations": [],
   "passedExpectations": [],
   "pendingReason": "",

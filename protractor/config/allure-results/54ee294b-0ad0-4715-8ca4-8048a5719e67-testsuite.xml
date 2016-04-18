@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1460993052039" stop="1460993073575">
+	<name>angularjs homepage</name>
+	<title>angularjs homepage</title>
+	<test-cases>
+		<test-case start="1460993052040" stop="1460993073565" status="passed">
+			<name>Открыть карточку клиента вызовом АФ CliCardTabs</name>
+			<title>Открыть карточку клиента вызовом АФ CliCardTabs</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

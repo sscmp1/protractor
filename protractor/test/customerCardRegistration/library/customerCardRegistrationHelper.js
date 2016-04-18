@@ -45,12 +45,15 @@ function closeBrowser(){
 		};	
 
 function openCreateCustomerAF(){
-	    browser.executeScript("icms.go('SBMS_S_CLI','CreateCustomer', {},0);");	
-	    browser.waitForAngular();
-		waitModalBusy(); 	
-};	
-	
-	
+          browser.executeScript("icms.go('SBMS_S_CLI','CreateCustomer', {},0);");
+          browser.waitForAngular();
+          waitModalBusy();
+         };
+function openAF(af){
+          browser.executeScript(af);
+          browser.waitForAngular();
+          waitModalBusy();
+         };
 	
 
 function untilElementIsPresented(elementDesired){
@@ -148,6 +151,7 @@ function untilElementIsPresented(elementDesired){
  module.exports.waitModalBusy=waitModalBusy;
  module.exports.customerNameEqualToDeliveryNameBeforeFilled = customerNameEqualToDeliveryNameBeforeFilled;
  module.exports.openCreateCustomerAF = openCreateCustomerAF;
+ module.exports.openAF = openAF;
  module.exports.openBrowser = openBrowser;
  module.exports.closeBrowser = closeBrowser;
  

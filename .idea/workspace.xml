@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e7c7830-5baf-4018-9cb0-8c32033e9d59" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/02a1175f-d73e-49be-919f-ca568cd71fb7-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0bc40bd2-e7b7-476d-8c81-87ad66f4f3f4-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0c463919-e674-4e2b-bf70-ada074fd8c4a-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0ce64c2c-88a7-4c47-bb3c-b29a523d8bff-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0d0222a5-f0fd-4b3b-a2ad-7b0d3d61ae9b-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0dc91049-cfd1-4d1b-8cd1-026da75ecbda-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0f0a6e65-58b1-49af-a8d8-d357d44905d9-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/0f7a13d9-8059-4c52-bee7-d64ac4b823cf-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/1c4d775c-4ebb-4f1b-ba96-c853a58bc611-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/1cfea7bf-d440-4d6d-8bb8-a2d37794ab27-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/1f09b73c-93f3-49f7-8589-0fb231d16ea6-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2a36384e-d8cb-4a65-93fb-a2ca46f130be-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2a887535-ab94-4be9-a6e5-c6279b7fb7bf-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2b40cd92-db1d-4e6a-aebe-c371c949ab10-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2b673900-a72b-4e6c-8c5d-183257e8d96e-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2bcd40ec-c779-4e93-8e8e-55a5b322b85b-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2cdb34cb-cdbd-460a-b933-4d4c8c197b84-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/2cf5332c-1f11-4ddf-a64e-85f8c3b17936-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/3cca9dfa-dc41-4df0-b2c9-e419825d1639-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/4156c3e5-e784-4387-b881-7d47650ee82c-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/4fd11509-0d82-4735-bbf6-b8755230c0f4-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/8d73fbaf-7dcf-427c-a0d7-0a677c8a4181-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/adcfe2a4-c27d-4027-a673-66360437014f-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/c2bc82c8-05ff-4935-af11-a99b1dd90131-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/dc86f550-6ac2-4d0e-8220-f14ba6e6d422-testsuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protractor/config/allure-results/f6815137-7fa6-40b7-988d-f300b2b9df7d-testsuite.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protractor/config/results.json" afterPath="$PROJECT_DIR$/protractor/config/results.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js" afterPath="$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js" afterPath="$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js" />
     </list>
     <ignored path="protractorActual.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +65,8 @@
       <file leaf-file-name="SBMS-CustomerCard-Open.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8635704">
-              <caret line="44" column="36" selection-start-line="43" selection-start-column="34" selection-end-line="44" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.69085634">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -59,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -69,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="40" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="45" />
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -88,6 +115,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js" />
         <option value="$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js" />
       </list>
     </option>
@@ -95,7 +123,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="247" />
     <option name="y" value="102" />
-    <option name="width" value="1320" />
+    <option name="width" value="1316" />
     <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -123,9 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,6 +253,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +460,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="247" y="102" width="1320" height="826" extended-state="0" />
+    <frame x="247" y="102" width="1316" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,7 +471,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25076923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -468,6 +496,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protractor/config/run-all-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/config/run-all-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protractor/config/run-all-tests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -591,7 +699,7 @@
     <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -599,15 +707,15 @@
     <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/library/customerCardRegistrationHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="45" />
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protractor/test/customerCardRegistration/SBMS-CustomerCard-Open.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8635704">
-          <caret line="44" column="36" selection-start-line="43" selection-start-column="34" selection-end-line="44" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.69085634">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding />
         </state>
       </provider>
