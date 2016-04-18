@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1447857175142" stop="1447857175152">
+	<name>После нажатия на кнопку &quot;Очистить&quot;</name>
+	<title>После нажатия на кнопку &quot;Очистить&quot;</title>
+	<test-cases>
+		<test-case start="1447857175142" stop="1447857175152" status="failed">
+			<name>выбранный элемент: &quot;Все клиенты&quot;</name>
+			<title>выбранный элемент: &quot;Все клиенты&quot;</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: load is not defined</message>
+				<stack-trace>ReferenceError: load is not defined
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:25:5)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
+    at new promise.Promise (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:368:5)
+    at controlFlowExecute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
+    at [object Object].promise.ControlFlow.runInFrame_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at [object Object].promise.ControlFlow.runEventLoop_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1729:8)
+    at [object Object].eval (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2043:12)
+    at goog.async.run.processWorkQueue (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:130:15)
+    at process._tickCallback (node.js:377:9)
+From: Task: Run beforeAll in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at QueueRunner.execute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1762:10)
+    at Env.queueRunnerFactory (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:627:35)
+    at Object.fn (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2345:13)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1801:16
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1745:9
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:22:3)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:11:1)
+    at Module._compile (module.js:425:26)
+    at Object.Module._extensions..js (module.js:432:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1447857175152" stop="1447857175152" status="failed">
+			<name>дополнительные параметры фильтрации не отображаются</name>
+			<title>дополнительные параметры фильтрации не отображаются</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: load is not defined</message>
+				<stack-trace>ReferenceError: load is not defined
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:25:5)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
+    at new promise.Promise (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:368:5)
+    at controlFlowExecute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
+    at [object Object].promise.ControlFlow.runInFrame_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at [object Object].promise.ControlFlow.runEventLoop_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1729:8)
+    at [object Object].eval (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2043:12)
+    at goog.async.run.processWorkQueue (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:130:15)
+    at process._tickCallback (node.js:377:9)
+From: Task: Run beforeAll in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at QueueRunner.execute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1762:10)
+    at Env.queueRunnerFactory (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:627:35)
+    at Object.fn (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2345:13)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1801:16
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1745:9
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:22:3)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\list-of-references\filter-list-of-references\work-with-extended-filter\client\clear.js:11:1)
+    at Module._compile (module.js:425:26)
+    at Object.Module._extensions..js (module.js:432:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

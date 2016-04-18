@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1460467542669" stop="1460467545469">
+	<name>angularjs homepage</name>
+	<title>angularjs homepage</title>
+	<test-cases>
+		<test-case start="1460467542669" stop="1460467545469" status="failed">
+			<name>Ожидание</name>
+			<title>Ожидание</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: JavaScript error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 155 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;WKS-15097&apos;, ip: &apos;172.20.106.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:14554/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: c13808e9-156c-4164-a713-58076a5eff14</message>
+				<stack-trace>WebDriverError: JavaScript error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 155 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593c&apos;, time: &apos;2016-02-11 19:06:42&apos;
+System info: host: &apos;WKS-15097&apos;, ip: &apos;172.20.106.79&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:14554/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: c13808e9-156c-4164-a713-58076a5eff14
+    at WebDriverError (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\error.js:27:10)
+    at Object.checkLegacyResponse (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\error.js:580:13)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:360:15
+    at Promise.invokeCallback_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1329:14)
+    at TaskQueue.execute_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2790:14)
+    at TaskQueue.executeNext_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2773:21)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2652:27
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:639:7
+    at process._tickCallback (node.js:369:9)
+From: Task: Run it(&quot;Ожидание&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1842:9
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:18:5
+    at Promise.invokeCallback_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1329:14)
+    at TaskQueue.execute_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2790:14)
+    at TaskQueue.executeNext_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2773:21)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2652:27
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (c:\protractor\protractor\test\customerCardRegistration\SBMS-CustomerCard-Open.js:12:3)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (c:\protractor\protractor\test\customerCardRegistration\SBMS-CustomerCard-Open.js:11:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

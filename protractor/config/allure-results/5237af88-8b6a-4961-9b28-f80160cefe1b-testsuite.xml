@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1448633252512" stop="1448633252518">
+	<name>createCustomer: copy customerName</name>
+	<title>createCustomer: copy customerName</title>
+	<test-cases>
+		<test-case start="1448633252512" stop="1448633252516" status="failed">
+			<name>encountered a declaration exception</name>
+			<title>encountered a declaration exception</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>ReferenceError: customerCardModuleHelperPath is not defined</message>
+				<stack-trace>ReferenceError: customerCardModuleHelperPath is not defined
+    at Suite.&lt;anonymous&gt; (C:\protractor\protractor\test\customerCardRegistration\SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled_new.js:7:31)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\test\customerCardRegistration\SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled_new.js:2:1)
+    at Module._compile (module.js:425:26)
+    at Object.Module._extensions..js (module.js:432:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+    at Module.require (module.js:366:17)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1448632986851" stop="1448632986858">
+	<name>createCustomer: copy customerName</name>
+	<title>createCustomer: copy customerName</title>
+	<test-cases>
+		<test-case start="1448632986851" stop="1448632986855" status="failed">
+			<name>encountered a declaration exception</name>
+			<title>encountered a declaration exception</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Error: Cannot find module &apos;undefined/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx&apos;</message>
+				<stack-trace>Error: Cannot find module &apos;undefined/SBMS-CreateCustomer-xxxCopyCustomerNameDeliveryxxx&apos;
+    at Function.Module._resolveFilename (module.js:337:15)
+    at Function.Module._load (module.js:287:25)
+    at Module.require (module.js:366:17)
+    at require (module.js:385:17)
+    at Suite.&lt;anonymous&gt; (C:\protractor\protractor\test\customerCardRegistration\SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled_new.js:7:22)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\test\customerCardRegistration\SBMS-CreateCustomer-FizCopyCustomerNameDeliveryFilled_new.js:2:1)
+    at Module._compile (module.js:425:26)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

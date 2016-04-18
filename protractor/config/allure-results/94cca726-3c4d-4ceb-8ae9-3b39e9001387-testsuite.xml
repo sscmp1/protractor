@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1448284768136" stop="1448284791874">
+	<name>CustomerCard</name>
+	<title>CustomerCard</title>
+	<test-cases>
+		<test-case start="1448284768136" stop="1448284791874" status="failed">
+			<name>Установка Имя доставки=Имя клиента</name>
+			<title>Установка Имя доставки=Имя клиента</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By.xpath(&quot;//div[@class=\&quot;b-combox__buttons ng-scope\&quot;]&quot;)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By.xpath(&quot;//div[@class=\&quot;b-combox__buttons ng-scope\&quot;]&quot;)
+    at new bot.Error (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\atoms\error.js:108:18)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\lib\element.js:694:15
+    at [object Object].promise.ControlFlow.runInFrame_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at [object Object].goog.defineClass.notify (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at [object Object].promise.Promise.notify_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+    at [object Object].promise.Promise.notifyAll_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:553:15)
+    at goog.async.run.processWorkQueue (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:130:15)
+    at process._tickCallback (node.js:377:9)
+Error
+    at [object Object].ElementArrayFinder.applyAction_ (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\lib\element.js:392:21)
+    at [object Object].self.(anonymous function) [as click] (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\lib\element.js:76:19)
+    at [object Object].self.(anonymous function) [as click] (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\lib\element.js:721:11)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\marina\SBMS-CreateCustomer-CopyNameAndContact.js:70:23)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:96:23
+    at new promise.Promise (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:368:5)
+    at controlFlowExecute (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:82:18)
+    at [object Object].promise.ControlFlow.runInFrame_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at [object Object].promise.ControlFlow.runEventLoop_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1729:8)
+    at [object Object].eval (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2043:12)
+From: Task: Run it(&quot;Установка Имя доставки=Имя клиента&quot;) in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1819:24)
+    at QueueRunner.run (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1774:9)
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1801:16
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1745:9
+    at C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:18:5
+    at [object Object].promise.ControlFlow.runInFrame_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1857:20)
+    at [object Object].goog.defineClass.notify (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2448:25)
+    at [object Object].promise.Promise.notify_ (C:/Users/marina.peunkova/AppData/Roaming/npm/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:564:12)
+    at Array.forEach (native)
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\protractor\protractor\resource\marina\SBMS-CreateCustomer-CopyNameAndContact.js:65:3)
+    at addSpecsToSuite (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:743:25)
+    at Env.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:713:7)
+    at jasmineInterface.describe (C:\Users\marina.peunkova\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3219:18)
+    at Object.&lt;anonymous&gt; (C:\protractor\protractor\resource\marina\SBMS-CreateCustomer-CopyNameAndContact.js:2:1)
+    at Module._compile (module.js:425:26)
+    at Object.Module._extensions..js (module.js:432:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

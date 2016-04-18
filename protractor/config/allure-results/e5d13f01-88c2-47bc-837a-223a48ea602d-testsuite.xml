@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1448367779159" stop="1448367815006">
+	<name>CustomerCard</name>
+	<title>CustomerCard</title>
+	<test-cases>
+		<test-case start="1448367779159" stop="1448367791575" status="passed">
+			<name>Открыть форму создания ЛС</name>
+			<title>Открыть форму создания ЛС</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1448367791577" stop="1448367814853" status="passed">
+			<name>Установка Имя доставки=Имя клиента (физ.лицо)</name>
+			<title>Установка Имя доставки=Имя клиента (физ.лицо)</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+		<test-case start="1448367814854" stop="1448367815005" status="passed">
+			<name>Закрыть browser</name>
+			<title>Закрыть browser</title>
+			<description></description>
+			<labels>
+			</labels>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

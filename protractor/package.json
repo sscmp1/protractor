@@ -1,0 +1,23 @@
+{
+  "name": "protractor_dep",
+  "version": "1.0.0",
+  "description": "Install packages for protractor",
+  "dependencies": {
+    "webdriver-manager": ">=7.0.1",
+    "protractor": ">=2.5.1",
+    "jasmine-node": ">=1.14.5",
+    "require-dir": ">=0.3.0",
+    "jasmine2-custom-message": ">=0.8.0",
+    "jasmine-allure-reporter": "0.2.3",
+    "jasmine-json-reporter": "1.0.0",
+    "jasmine-spec-reporter": ">=2.4.0",
+    "protractor-jasmine2-screenshot-reporter": "0.1.7",
+    "nodemailer": ">=1.8.0 ",
+    "nodemailer-smtp-transport": ">=1.0.3",
+    "req": ">=0.1.4"
+  },
+  "devDependencies": {
+    "jasmine-custom-message": "^0.8.1",
+    "protractor-http-mock": "^0.1.18"
+  }
+}
