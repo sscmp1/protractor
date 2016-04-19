@@ -141,13 +141,34 @@ function untilElementIsPresented(elementDesired){
 	function waitModalBusy(){		
 	    var elB=by.xpath('//*[@id="shell_modal_busy"]'); //special Busy element
 	    untilElementIsPresentedNotPresented(elB);
-	};	
+	};
+
+		function selectItemFromComboDictionary(comboXPath,spanForItem){
+    	//Нажать кнопку на комбо
+    	var s = comboXPath+'/div[@class="b-combobox__buttons ng-scope"]';
+    	var elementDropButton=element(by.xpath(s));
+        elementDropButton.click();
+
+    	//Дождаться, пока появится выпадающий список и нажать на нужную строчку
+    	s ='//div[@class="ng-scope ng-isolate-scope list-drop"]/div[@class="list-drop__scroll"]/div[@class="list-drop-option__item ng-scope ng-isolate-scope list-drop-option"]/div[@class="list-drop-option__text ng-scope"]/div[@span="ng-binding ng-scope"]';
+    	var elDropItem=by.xpath(s);
+    	//untilElementIsPresented(elDropItem);
+    	var elementDropItem=element(elDropItem);
+    	//elementDropItem.click();
+    	//Дождаться, пока выбранное значение установится в боксе
+        //s=comboXPath+'//span[@ps-once-bind="'+spanForItem+'"]';
+        //var elDropValue=by.xpath(s);
+    	//untilElementIsPresented(elDropValue);
+
+    	//-------------------
+        };
 		
  module.exports.untilElementIsPresented=untilElementIsPresented;
  module.exports.untilElementIsPresentedNotPresented=untilElementIsPresentedNotPresented;
  module.exports.untilElementIsDisplayed=untilElementIsDisplayed;
  module.exports.untilElementIsNotPresented=untilElementIsNotPresented;
  module.exports.selectItemFromCombo=selectItemFromCombo;
+ module.exports.selectItemFromComboDictionary=selectItemFromComboDictionary;
  module.exports.waitModalBusy=waitModalBusy;
  module.exports.customerNameEqualToDeliveryNameBeforeFilled = customerNameEqualToDeliveryNameBeforeFilled;
  module.exports.openCreateCustomerAF = openCreateCustomerAF;
